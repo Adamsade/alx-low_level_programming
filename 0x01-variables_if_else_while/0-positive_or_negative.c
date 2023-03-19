@@ -1,18 +1,26 @@
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
 #include <stdio.h>
+/* betty style doc for function main goes there */
+/**
+ * main - main function
+ *
+ * Return: always 0
+ */
 
-int main() {
+int main(void)
+{
+	int n;
 
-    double num;
-    printf("Enter a number: ");
-    scanf("%lf", &num);
-    if (num <= 0.0) {
-        if (num == 0.0)
-            printf("You entered 0.");
-        else
-            printf("You entered a negative number.");
-    } 
-    else
-        printf("You entered a positive number.");
-
-    return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n > 0)
+		printf("%d is positive", n);
+	else if (n == 0)
+		printf("%d is zero", n);
+	else
+		printf("%d is negative", n);
+	return (0);
 }
