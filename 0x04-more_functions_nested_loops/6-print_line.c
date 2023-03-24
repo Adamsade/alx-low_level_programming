@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line 
+ * print_line - draws a straight line
  * @n: the number of lines to draw
  * Retur: empty
  */
 void print_line(int n)
 {
 	int i;
-	
+
 	if (n <= 0)
 	{
 		_putchar('\n');
