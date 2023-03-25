@@ -1,4 +1,3 @@
-julien@ubuntu :~/c/0x00$ cat main.c 
 #include <stdio.h>
 
 /**
@@ -6,7 +5,6 @@ julien@ubuntu :~/c/0x00$ cat main.c
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	return (0);
