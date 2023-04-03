@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int _putchar(char c);
+char *_memcpy(char *dest, char *src, unsigned int n);
 void print_diagsums(int *a, int size);
 void print_chessboard(char (*a)[8]);
 char *_strstr(char *haystack, char *needle);
