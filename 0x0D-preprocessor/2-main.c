@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-int main () {
-	printf("%s\n", _FILE_);
-		return 0;
+/**
+ * main - main function
+ * Return: always zero
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+		return (0);
 }
